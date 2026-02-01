@@ -2479,6 +2479,7 @@ class MQTTSubscriberV2MQTT3(MQTTSubscriber):
     def _on_connect(self, client, userdata, flags, reason_code, _properties):
         self.logger.info(72001, MQTTSubscriberV2MQTT3.msgX[72001].format(rc=reason_code.value))
         self.logger.info(72002, MQTTSubscriberV2MQTT3.msgX[72002].format(flags=str(flags)))
+        threading.current_thread().name = f"MQTTSubscribe-{threading.get_native_id()}"
 
         userdata['connect'] = True
         userdata['connect_rc'] = reason_code.value
