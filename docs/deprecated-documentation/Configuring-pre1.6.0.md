@@ -6,7 +6,7 @@ nav_order: 1
 
 There are three major pieces to the MQTTSubscribe configuration.
 
-## The `[MQTTSubscribeDriver]/[MQTTSubscribeSection]` section
+## The `[MQTTSubscribeDriver]/[MQTTSubscribeService]` section
 
 This configures the MQTT connection and any necessary WeeWX options.
 

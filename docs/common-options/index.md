@@ -4,7 +4,7 @@ has_children: true
 has_toc: true
 nav_order: 2
 ---
-## The `[MQTTSubscribeDriver]/[MQTTSubscribeSection]` section
+## The `[MQTTSubscribeDriver]/[MQTTSubscribeService]` section
 
 This configures the MQTT connection and any necessary WeeWX options.
 

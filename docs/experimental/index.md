@@ -5,7 +5,7 @@ nav_order: 5
 
 These may change or go away.
 
-## The `[MQTTSubscribeDriver]/[MQTTSubscribeSection]` section
+## The `[MQTTSubscribeDriver]/[MQTTSubscribeService]` section
 
 This configures the MQTT connection and any necessary WeeWX options.
 
