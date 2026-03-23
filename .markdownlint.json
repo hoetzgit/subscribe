@@ -1,6 +1,10 @@
 {
     "md013": {
-        "line_length": 150
+        "line_length": 150,
+        "code_blocks": false
+    },
+        "md024": {
+        "siblings_only": true
     },
     "md040": false,
     "md046": false
