@@ -3,7 +3,6 @@
         "line_length": 150,
         "code_blocks": false
     },
-    // Multiple headings with the same content
     "md024": {
         "siblings_only": true
     },
