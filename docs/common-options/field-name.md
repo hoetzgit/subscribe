@@ -33,4 +33,3 @@ The WeeWX name.
 To be used in conjunction with `contains_total`.
 
 Set to `true` if the incoming cumulative value can wrap around (yearly rain for example). The default is `false`.
-

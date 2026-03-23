@@ -9,4 +9,3 @@ nav_order: 2
 ```
 python3 $USER_ROOT/MQTTSubscribe.py simulate $RUN_MODE --help
 ```
-

@@ -56,4 +56,3 @@ export USER_ROOT=$WEEWX_ROOT/bin/user
 CONFIG_FILE=$WEEWX_ROOT/weewx.conf
 WEECTL=$WEEWX_REPO/bin/weectl
 ```
-
